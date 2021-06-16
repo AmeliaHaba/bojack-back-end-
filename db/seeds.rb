@@ -50,6 +50,7 @@ sarah_lynn = Character.create!(
 )
 
 
+
 Fact.create!([{
     character_id: bojack.id,
     fact: "Destroys everything around him with his self-destructive behavior"
