@@ -14,14 +14,15 @@ ActiveRecord::Schema.define(version: 2021_06_15_190742) do
 
   create_table "characters", force: :cascade do |t|
     t.string "name"
+    t.string "depressed"
+    t.string "animal"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "facts", force: :cascade do |t|
-    t.string "quote"
-    t.boolean "depressed"
-    t.boolean "animal"
+    t.string "fact"
     t.integer "character_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
