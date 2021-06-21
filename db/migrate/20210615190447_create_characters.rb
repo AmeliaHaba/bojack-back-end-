@@ -4,9 +4,10 @@ class CreateCharacters < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :depressed
       t.string :animal
-      t.string :image
+      t.boolean :mood, default: false
 
       t.timestamps
     end
   end
 end
+

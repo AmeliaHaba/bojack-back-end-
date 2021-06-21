@@ -6,47 +6,47 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Character.destroy_all
+Fact.destroy_all
 
 bojack = Character.create!(
     name: "Bojack Horseman",
     depressed: "Yes",
-    animal: "Yes",
-    image: "https://www.google.com/search?q=bojack+horseman&rlz=1C5CHFA_enUS941US943&sxsrf=ALeKk024c4FRcEqA2VusG4DP_m4zs7QMXw:1623874255398&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjW3puB-5zxAhWRKs0KHe0ABKwQ_AUoAnoECAEQBA&biw=1378&bih=677#imgrc=YC9uSrO6pK8YcM"
+    animal: "Yes"
 )
 
 diane = Character.create!(
     name: "Diane Nguyen",
     depressed: "Yes",
-    animal: "Yes",
-    image: "https://www.google.com/search?q=diane+nguyen+bojack&rlz=1C5CHFA_enUS941US943&sxsrf=ALeKk01TzUEbbhwSjoiov8z4p3twXs3K1Q:1623874076921&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjR5I6s-pzxAhWFXM0KHSwOBdIQ_AUoAXoECAEQAw&biw=1378&bih=677#imgrc=L_VZIVgnppmJaM"
+    animal: "No"
 )
+    
 
 todd = Character.create!(
     name: "Todd Chavez",
     depressed: "No",
-    animal: "No",
-    image: "https://www.google.com/search?q=todd+chavez&rlz=1C5CHFA_enUS941US943&sxsrf=ALeKk01err2fRd7L_c9j3zO-ZvEj4ClPTQ:1623874036162&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj5g9eY-pzxAhULVc0KHSj8AlMQ_AUoAXoECAEQAw&biw=1378&bih=677&dpr=2#imgrc=lu-1Z8pCvS1V5M"
+    animal: "No"
+   
 )
 
 princess_carolyn = Character.create!(
     name: "Princess Carolyn",
     depressed: "No",
-    animal: "Yes",
-    image: "https://www.google.com/search?q=princess+carolyn&rlz=1C5CHFA_enUS941US943&sxsrf=ALeKk03p0Xtnwr2V0CVkW2Jrvw27YVVSwA:1623874234965&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiH6rz3-pzxAhUOK80KHStkBiQQ_AUoAXoECAEQAw&biw=1378&bih=677#imgrc=f-3kIQQmOD2m1M"
+    animal: "Yes"
 )
+    
 
 mr_peanutbutter = Character.create!(
-    name: "Mr. Peanutbutter",
+    name: "Mr Peanutbutter",
     depressed: "No",
-    animal: "Yes",
-    image: "https://www.google.com/search?q=mr+peanutbutter+bojack+horseman&tbm=isch&ved=2ahUKEwjNn9vP-pzxAhUH3KwKHVRVDcAQ2-cCegQIABAA&oq=mr+peanutbutter+bojack+horseman&gs_lcp=CgNpbWcQAzICCAAyAggAMgYIABAFEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjoECAAQQzoECAAQHlDmxgFYj9YBYNvXAWgAcAB4AIABV4gBhgmSAQIxNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=Z1rKYI3QIoe4swXUqrWADA&bih=677&biw=1378&rlz=1C5CHFA_enUS941US943#imgrc=S3ePI7ZntnvFSM"
+    animal: "Yes"
+    
 )
 
 sarah_lynn = Character.create!(
     name: "Sarah Lynn",
     depressed: "Yes",
-    animal: "No",
-    image: "https://www.google.com/search?q=sarah+lynn&rlz=1C5CHFA_enUS941US943&sxsrf=ALeKk02SxC63S5cD73Gl3NEtgJKZzOngiw:1623874294028&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi38tGT-5zxAhWNB50JHX7iBYIQ_AUoAXoECAEQAw&biw=1378&bih=677#imgrc=jKaBBolpRVXAnM"
+    animal: "No"
 )
 
 

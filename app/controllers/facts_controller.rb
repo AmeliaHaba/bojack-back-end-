@@ -3,7 +3,12 @@ class FactsController < ApplicationController
 
   # GET /facts
   def index
-    @facts = Fact.all
+    if params[:character_id]
+        @character = Character.find_by_id(params[:character_id])
+        @facts = @character.facts
+    else
+        @facts = Fact.all
+    end 
 
     render json: @facts
   end
