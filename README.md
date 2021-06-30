@@ -1,24 +1,29 @@
-# README
+Bojack Attack!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bojack Attack is a Single Page Application that allows a user to view Bojack Horseman characters and the character's traits. Once a user views the character and their traits, they can click on the "mood" button to indicate what character they most identify with that day.
 
-Things you may want to cover:
+Install Instructions:
 
-* Ruby version
+Fork the repo and copy the SSH link.
 
-* System dependencies
+cd into your desired folder and paste the SSH link into your terminal and hit enter.
 
-* Configuration
+Once opened, open the terminal and type npx serve to fire up the frontend server.
 
-* Database creation
+A link will be provided once the server is fired: http://localhost5000
 
-* Database initialization
+Frontend Link:
 
-* How to run the test suite
+https://github.com/AmeliaHaba/bojack-front-end
 
-* Services (job queues, cache servers, search engines, etc.)
+Contributer's Gude:
 
-* Deployment instructions
+If you wish to contribute to this repo please submit a pull request.
 
-* ...
+License:
+
+This app is licensed under The MIT License located here: 
+
+Sources
+https://rubygems.org/
+https://www.w3schools.com/
